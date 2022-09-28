@@ -2,7 +2,7 @@
 # Convierte un número binario a decimal.
 # El binario es un string e.g. "101"
 # ------------------------------------------------------
-def bin2dec(numero_binario):
+def bin2dec(numero_binario):.
     numero_decimal = 0
 
     j = len(numero_binario) - 1
@@ -28,3 +28,5 @@ if __name__ == "__main__":
     # Muestra por pantalla el resultado.
     # Para imprimir un entero es necesario convertirlo a string con str()
     print("El numero binario " + numero_binario + " es " + str(numero_decimal) + " en decimal.")
+
+# Modificacion Eric
